@@ -1,0 +1,78 @@
+body {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Cinzel Decorative', cursive;
+  }
+
+a {
+  background-color: rgba(0, 0, 0, 0.70);
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+/*NAVBAR*/
+.navbar {
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  min-height: 0px;
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  font-size: 20px;
+  line-height: 5px;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: black;
+  border-width: 2px;
+}
+
+.navbar-toggle .icon-bar {
+  width: 25px;
+  height: 3px;
+  border-radius: 1px;
+}
+
+/*CONTENTS*/
+
+.thumbnail img{
+  max-width: 100%;
+}
+
+.img-wrapper{
+	width: 100%;
+	padding-bottom: 50%;
+	position: relative;
+}
+
+.img-wrapper img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-height: 100%;
+}
+
+.thumbnail {
+  background-color: transparent;
+  padding: 0px;
+  border-color: transparent;
+
+}
+
+.thumbnail .caption {
+  padding: 15px;
+  color: white;
+}
