@@ -24,11 +24,45 @@
   </head>
 
   <body>
-    <div>
-      <img id="portrait" src="images/Portrait.jpg">
-      <h1 id="name">Carlos E. Peña</h1>
-      <h5 id="profession">Jr. Full Stack Web Developer</h5>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 id="name">Carlos E. Peña</h1>
+        </div>
+      </div>
     </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <p id="profession">Jr. Full Stack Web Developer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Bootstrap</li>
+            <li>JQUERY</li>
+            <li>SQL</li>
+            <li>PostgresSQL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <img id="portrait" class="center-block" src="images/Portrait.jpg">
+    </div>
+
+    <!-- NAVBAR -->
     <div class="nav-placeholder">
       <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container-fluid">
@@ -42,13 +76,19 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
               <li><a href="projects.html">Portfolio</a></li>
-              <li><a href="#">Stack/Skills</a></li>
               <li><a href="#">About Me</a></li>
               <li><a href="#">Contact</a></li>
+            </ul>
+            <br>
+            <ul class="nav navbar-nav contact">
+              <li><a href="https://github.com/cpena002" target="_blank"><img src="images/GitHub.png" id="github"></a></li>
+              <li><a href="https://www.linkedin.com/in/cpena002" target="_blank"><img src="images/LinkedIn.png" id="linkedin"></a></li>
+              <li><a href="mailto:cpena002@yahoo.com"><img src="images/Email.png" id="email"></a></li>
+              <li><a href="Resume.pdf" target="_blank"><img src="images/Resume.png" id="email"></a></li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
+    </div> <!-- END NAVBAR -->
   </body>
 </html>

@@ -7,43 +7,51 @@ body {
   font-family: 'Cinzel Decorative', cursive;
   }
 
-#name {
-  color: white;
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right:0;
+.col-sm-12 {
   text-align: center;
+  color: white;
+
+}
+
+#email {
+  height: 32px;
+  width: 42px;
+  background-color: white;
 }
 
 #profession {
-  color: white;
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right:0;
-  text-align: center;
-  margin-top: 45px;
   background-color: rgba(0, 0, 0, 0.52);
+  font-size: 18px;
 }
 
 #portrait {
   border-radius: 90%;
   max-width: 280px;
   max-height: 500px;
-  margin: 0;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  padding-top: 14px;
+}
+
+.col-sm-12 ul li {
+  list-style: none;
+  display: inline;
+  font-size: 18px;
+  text-align: center;
+}
+
+.col-sm-12 ul li:after {
+  content: "\2022";
+  font-size: 20px;
+  padding: 10px;
+}
+
+.col-sm-12 ul li:last-child:after {
+  content: none;
 }
 
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
   display: flex;
-  bottom: 60px;
 }
 .navbar-nav {
   background: transparent;
@@ -68,6 +76,9 @@ body {
   border-radius: 1px;
 }
 
+.nav .navbar-nav .contact {
+  float: left;
+}
 
 /* DO I NEED THESE FOR A RESPONSIVE WEB DESIGN?? WHAT GOES IN BETWEEN EACH*/
 
