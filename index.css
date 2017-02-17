@@ -13,6 +13,17 @@ body {
 
 }
 
+.col-sm-12 ul li {
+  list-style: none;
+  display: inline;
+  font-size: 18px;
+  text-align: center;
+}
+
+.col-sm-12 ul li:last-child:after {
+  content: none;
+}
+
 #email {
   height: 32px;
   width: 42px;
@@ -31,12 +42,6 @@ body {
   padding-top: 14px;
 }
 
-.col-sm-12 ul li {
-  list-style: none;
-  display: inline;
-  font-size: 18px;
-  text-align: center;
-}
 
 .skills ul li:after {
   content: "\2022";
@@ -44,9 +49,6 @@ body {
   padding: 10px;
 }
 
-.col-sm-12 ul li:last-child:after {
-  content: none;
-}
 
 /* NAVBAR */
 

@@ -1,0 +1,88 @@
+body {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Cinzel Decorative', cursive;
+  }
+
+  h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /*TABLE*/
+
+  /*TABLE*/
+  .table-specs {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+
+  tr {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border-color: transparent;
+  }
+
+  img {
+    float: left;
+  }
+
+  p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  td {
+    width: 600px;
+    height: 50px;
+    padding: 25px;
+  }
+
+  .icon {
+    height: 81px;
+    width: auto;
+  }
+
+  .shift-right {
+    padding-left: 10px;
+
+  }
+
+  .bootcamp {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+  /*NAVBAR*/
+  .navbar {
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    min-height: 0px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: black;
+    border-width: 2px;
+  }
+
+  .navbar-toggle .icon-bar {
+    width: 25px;
+    height: 3px;
+    border-radius: 1px;
+  }
+
+  /*CONTENTS*/
