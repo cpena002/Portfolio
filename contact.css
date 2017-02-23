@@ -13,51 +13,37 @@ body {
     text-align: center;
   }
 
-  /*TABLE*/
+  a {
+    color: white;
+    padding-top: 20px;
+    font-size: 18px;
+  }
 
-  /*TABLE*/
-  .table-specs {
-    height: 600px;
+  a:link, a:visited, a:hover, a:active {
+    color: white;
+  }
+
+
+  /* CONTENT */
+
+  .col-sm-6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
+    flex-direction: column;
+    padding: 80px;
   }
 
-  tr {
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
-    border-color: transparent;
-  }
-
-  img {
-    float: left;
-  }
-
-  p {
-    font-size: 15px;
-    margin-left: 10px;
-  }
-
-  td {
-    width: 600px;
-    height: 50px;
-    padding: 25px;
+  .col-sm-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .icon {
     height: 81px;
     width: auto;
-  }
-
-  .shift-right {
-    padding-left: 10px;
-
-  }
-
-  .bootcamp {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
   }
 
   /*NAVBAR*/

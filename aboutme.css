@@ -23,6 +23,7 @@ h1 {
 }
 
 tr {
+  vertical-align: top;
   color: white;
   background: rgba(0, 0, 0, 0.6);
   border-color: transparent;
@@ -35,6 +36,7 @@ img {
 p {
   font-size: 15px;
   margin-left: 10px;
+  padding-left: 100px;
 }
 
 td {
@@ -48,9 +50,8 @@ td {
   width: auto;
 }
 
-.shift-right {
-  padding-left: 10px;
-
+#education {
+  padding-top: -5px;
 }
 
 .bootcamp {
