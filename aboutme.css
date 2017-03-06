@@ -7,6 +7,10 @@ body {
   font-family: 'Cinzel Decorative', cursive;
   }
 
+html {
+  height: 100%;
+}
+
 h1 {
   color: white;
   font-size: 36px;
