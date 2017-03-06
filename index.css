@@ -25,14 +25,16 @@ html {
 .col-sm-12 {
   text-align: center;
   color: white;
-
 }
 
 .col-sm-12 ul li {
   display: inline;
   font-size: 18px;
-  text-align: center;
   white-space: nowrap;
+}
+
+.col-sm-12 ul {
+  padding-left: 0px;
 }
 
 ul {
