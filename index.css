@@ -83,11 +83,7 @@ html {
   line-height: 5px;
 }
 
-.footer li a {
-  background-color: rgba(0, 0, 0, 0.52);
-  display: inline-block;
-  padding: 10px 20px;
-}
+
 
 .navbar-inverse .navbar-toggle {
   border-color: black;
