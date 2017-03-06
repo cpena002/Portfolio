@@ -22,10 +22,25 @@
     <link type="text/css" rel="stylesheet" href="index.css"/>
 
     <meta charset="utf-8">
+
+    <script>
+      function processBullets() {
+        var lastElement = false;
+        $("br").remove(".tempbreak");
+        $("ul li").each(function() {
+          $(this).removeClass("nobullet");
+          if (lastElement && lastElement.offset().top != $(this).offset().top) {
+            $(lastElement).addClass("nobullet");
+            $(lastElement).append('<br class="tempbreak" />');
+          }
+          lastElement = $(this);
+        }).last().addClass("nobullet");
+      }
+    </script>
     <title>Carlos E. Peña</title>
   </head>
 
-  <body>
+  <body onresize="processBullets()" onload="processBullets()">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
