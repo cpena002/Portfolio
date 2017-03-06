@@ -47,7 +47,7 @@ ul {
 .skills ul li:after {
   content: "\2022";
   font-size: 20px;
-  padding: 10px;
+  padding: 3px;
 }
 
 
