@@ -84,7 +84,8 @@ html {
 }
 
 .footer li a {
-  display: inline;
+  background-color: rgba(0, 0, 0, 0.52);
+  display: inline-block;
   padding: 10px 20px;
 }
 
