@@ -49,11 +49,15 @@ html {
   font-size: 18px;
 }
 
+
 #portrait {
+  display: block;
+  margin: auto;
+  width: 40%;
   border-radius: 90%;
   max-width: 280px;
   max-height: 500px;
-  padding-top: 14px;
+  margin-top: 144px;
 }
 
 
