@@ -117,8 +117,8 @@ html {
 @media (min-width:320px) {
   #portrait {
     border-radius: 90%;
-    max-height: 335px;
-    margin-top: 7%;
+    max-height: 315px;
+    margin-top: 5%;
   }
   #name {
     font-size: 26px;
@@ -375,8 +375,7 @@ and (min-height : 800px){
 and (min-width : 1281px) {
   #portrait {
     border-radius: 90%;
-    max-height: 440px;
-    margin-top: 2%;
+    max-height: 420px;
   }
   #name {
     font-size: 48px;
