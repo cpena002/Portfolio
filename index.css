@@ -284,6 +284,27 @@ ul {
     font-size: 18px;
   }
 }
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  #portrait {
+    border-radius: 90%;
+    max-height: 420px;
+    margin-top: 2%;
+  }
+  #name {
+    font-size: 44px;
+  }
+  /*Profession*/
+  #profession {
+    font-size: 20px;
+  }
+  .skills ul li {
+    font-size: 18px;
+  }
+  .footer a {
+    font-size: 18px;
+  }
+}
 @media only screen and (min-width: 1900px) {
   #portrait {
     border-radius: 90%;
