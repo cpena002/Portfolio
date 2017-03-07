@@ -29,7 +29,7 @@ html {
 
 .col-sm-12 ul li {
   display: inline;
-  font-size: 18px;
+  font-size: 22px;
   white-space: nowrap;
 }
 
@@ -52,21 +52,20 @@ ul {
   padding: 3px;
 }
 
-
+#name {
+  font-size: 38px;
+}
 #profession {
   background-color: rgba(0, 0, 0, 0.52);
-  font-size: 18px;
+  font-size: 26px;
 }
 
 #portrait {
   border-radius: 90%;
-  max-width: 280px;
-  max-height: 500px;
-  margin-top: 6%;
+  max-width: 340px;
+  max-height: 480px;
+  margin-top: 4%;
 }
-
-
-
 
 /* NAVBAR */
 
@@ -83,7 +82,7 @@ ul {
 
 .footer a {
   color: white;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 5px;
 }
 
