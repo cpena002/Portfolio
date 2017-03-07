@@ -419,8 +419,7 @@ and (min-height : 800px){
 and (min-width : 1581px) {
   #portrait {
     border-radius: 90%;
-    max-height: 500px;
-    margin-top: 1%;
+    max-height: 460px;
   }
   #name {
     font-size: 50px;
