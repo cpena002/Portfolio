@@ -376,7 +376,7 @@ and (max-device-width: 1366px) {
 and (max-device-width: 670px) {
   #portrait {
     border-radius: 90%;
-    max-height: 340px;
+    max-height: 300px;
     margin-top: 2%;
   }
   #name {
