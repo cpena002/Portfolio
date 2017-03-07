@@ -27,11 +27,6 @@ html {
   color: white;
 }
 
-.col-sm-12 ul li {
-  display: inline;
-  font-size: 22px;
-  white-space: nowrap;
-}
 
 .col-sm-12 ul {
   padding-left: 0px;
@@ -40,6 +35,12 @@ html {
 ul {
   padding: 0;
   list-style-type: none;
+}
+
+.skills ul li {
+  display: inline;
+  font-size: 22px;
+  white-space: nowrap;
 }
 
 .skills ul li:last-child::after {
@@ -52,20 +53,10 @@ ul {
   padding: 3px;
 }
 
-#name {
-  font-size: 38px;
-}
 #profession {
   background-color: rgba(0, 0, 0, 0.52);
-  font-size: 26px;
 }
 
-#portrait {
-  border-radius: 90%;
-  max-width: 340px;
-  max-height: 480px;
-  margin-top: 4%;
-}
 
 /* NAVBAR */
 
@@ -107,21 +98,89 @@ ul {
   float: left;
 }
 
-
-
 /* DO I NEED THESE FOR A RESPONSIVE WEB DESIGN?? WHAT GOES IN BETWEEN EACH*/
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
 
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #portrait {
+    border-radius: 90%;
+    max-height: 350px;
+    margin-top: 2%;
+  }
+  #name {
+    font-size: 22px;
+  }
+  /*Profession*/
+  #profession {
+    font-size: 16px;
+  }
+  .skills ul li {
+    font-size: 14px;
+  }
+}
 
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { }
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
 
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
