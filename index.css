@@ -179,7 +179,7 @@ html {
 @media only screen and (min-width: 401px) {
   #portrait {
     border-radius: 90%;
-    max-height: 575px;
+    max-height: 490px;
     margin-top: 2%;
   }
   #name {
@@ -298,6 +298,28 @@ html {
   }
 }
 /* Apple Phones (portrait)----------- */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  #portrait {
+    border-radius: 90%;
+    max-height: 500px;
+    margin-top: 1px;
+  }
+  #name {
+    font-size: 44px;
+  }
+  /*Profession*/
+  #profession {
+    font-size: 20px;
+  }
+  .skills ul li {
+    font-size: 18px;
+  }
+  .footer a {
+    font-size: 18px;
+  }
+}
+
 @media (min-device-width:320px)
 and (max-device-width: 568px) {
   #portrait {
@@ -333,28 +355,6 @@ and (max-device-width: 1024px) {
   /*Profession*/
   #profession {
     font-size: 22px;
-  }
-  .skills ul li {
-    font-size: 18px;
-  }
-  .footer a {
-    font-size: 18px;
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 500px;
-    margin-top: 1px;
-  }
-  #name {
-    font-size: 44px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 20px;
   }
   .skills ul li {
     font-size: 18px;
