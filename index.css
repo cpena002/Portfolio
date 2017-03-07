@@ -380,16 +380,16 @@ and (max-device-width: 670px) {
     margin-top: 2%;
   }
   #name {
-    font-size: 19px;
+    font-size: 20px;
   }
   /*Profession*/
   #profession {
-    font-size: 14px;
+    font-size: 15px;
   }
   .skills ul li {
-    font-size: 12px;
+    font-size: 13px;
   }
   .footer a {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
