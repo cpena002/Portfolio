@@ -137,8 +137,8 @@ html {
   align-items: center;
 }
 
-/*MEDIA QUERIES----------------------------------*
-/
+/*MEDIA QUERIES----------------------------------*/
+
 /*iPhone 5/Galaxy-----------------------------*/
 @media (min-width:320px) {
   /*SOCIAL MEDIA*/
@@ -220,7 +220,7 @@ html {
   /*INTRODUCTION BACKGROUND IMAGE*/
   #introduction {
     background-size: cover;
-    height: 825px;
+    height: 830px;
   }
   /*SKILLS*/
   .skills ul li {
@@ -236,22 +236,24 @@ html {
     margin-bottom: 25px;
   }
   .salutation p {
-    font-size: 24px;
+    font-size: 20px;
   }
   /*PORTRAIT*/
   #portrait {
     max-height: 460px;
+    margin-top: 30px;
   }
 }
 
-@media (min-width:481px) {
+/*For Phones like Nexus 5 ------------------------*/
+@media (min-width:412px) {
   /*SOCIAL MEDIA*/
   .social-media img {
-    height: 22px;
+    height: 25px;
   }
   /*MY NAME*/
   #name {
-    font-size: 32px;
+    font-size: 33px;
   }
   /*NAVBAR*/
   .center .navbar-nav li a {
@@ -260,19 +262,98 @@ html {
   /*INTRODUCTION BACKGROUND IMAGE*/
   #introduction {
     background-size: cover;
-    height: 510px;
+    height: 575px;
+  }
+  /*SKILLS*/
+  .skills ul li {
+    font-size: 16px;
   }
   /*SALUTATION*/
   .salutation h1 {
     font-size: 32px;
   }
   .salutation p {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 30px;
+    font-size: 20px;
   }
   /*PORTRAIT*/
   #portrait {
-    max-height: 280px;
+    max-height: 260px;
+    margin-top: 30px;
+  }
+}
+
+/*For when resizing browswer screen-------------------------*/
+@media (min-width:412px)
+  and (min-height: 800px){
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 32px;
+  }
+  /*MY NAME*/
+  #name {
+    font-size: 42px;
+  }
+  /*NAVBAR*/
+  .center .navbar-nav li a {
+    font-size: 28px;
+    padding: 5px;
+  }
+  /*INTRODUCTION BACKGROUND IMAGE*/
+  #introduction {
+    background-size: cover;
+    height: 830px;
+  }
+  /*SKILLS*/
+  .skills ul li {
+    font-size: 19px;
+  }
+  /*SALUTATION*/
+  .salutation h1 {
+    font-size: 48px;
+  }
+  .salutation p {
+    font-size: 20px;
+  }
+  /*PORTRAIT*/
+  #portrait {
+    max-height: 460px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width:770px)
+  and (min-height: 800px){
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 24px;
+  }
+  /*MY NAME*/
+  #name {
+    font-size: 42px;
+  }
+  /*NAVBAR*/
+  .center .navbar-nav li a {
+    padding: 20px;
+  }
+  /*INTRODUCTION BACKGROUND IMAGE*/
+  #introduction {
+    background-size: cover;
+    height: 830px;
+  }
+  /*SKILLS*/
+  .skills ul li {
+    font-size: 22px;
+  }
+  /*SALUTATION*/
+  .salutation h1 {
+    font-size: 42px;
+  }
+  .salutation p {
+    font-size: 20px;
+  }
+  /*PORTRAIT*/
+  #portrait {
+    max-height: 460px;
+    margin-top: 30px;
   }
 }
