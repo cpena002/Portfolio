@@ -178,16 +178,16 @@ html {
     justify-content: center;
   }
   .skills ul li {
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     align-items: center;
   }
   /*SALUTATION*/
   .salutation h1 {
-    font-size: 15px;
+    font-size: 22px;
   }
   .salutation p {
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
   }
   /*PORTRAIT*/
@@ -197,6 +197,6 @@ html {
     margin-bottom: 10px;
   }
   #portrait {
-    max-height: 280px;
+    max-height: 260px;
   }
 }
