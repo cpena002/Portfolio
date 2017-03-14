@@ -137,8 +137,9 @@ html {
   align-items: center;
 }
 
-/*MEDIA QUERIES*/
-/*iPhone 5*/
+/*MEDIA QUERIES----------------------------------*
+/
+/*iPhone 5/Galaxy-----------------------------*/
 @media (min-width:320px) {
   /*SOCIAL MEDIA*/
   .social-media img {
@@ -201,6 +202,7 @@ html {
     max-height: 260px;
   }
 }
+/*Slim window size on monitor------------------*/
 @media (min-width:320px)
   and (min-height:800px){
   /*SOCIAL MEDIA*/
@@ -237,8 +239,40 @@ html {
     font-size: 24px;
   }
   /*PORTRAIT*/
-
   #portrait {
     max-height: 460px;
+  }
+}
+
+@media (min-width:481px) {
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 22px;
+  }
+  /*MY NAME*/
+  #name {
+    font-size: 32px;
+  }
+  /*NAVBAR*/
+  .center .navbar-nav li a {
+    font-size: 22px;
+  }
+  /*INTRODUCTION BACKGROUND IMAGE*/
+  #introduction {
+    background-size: cover;
+    height: 510px;
+  }
+  /*SALUTATION*/
+  .salutation h1 {
+    font-size: 32px;
+  }
+  .salutation p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /*PORTRAIT*/
+  #portrait {
+    max-height: 280px;
   }
 }
