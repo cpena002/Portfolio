@@ -170,12 +170,14 @@ html {
   }
   /*SKILLS*/
   .skills ul li:after {
-    padding: 2px;
+    padding: 5px;
   }
   .skills ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
+    padding-left: 0;
   }
   .skills ul li {
     font-size: 16px;
@@ -184,17 +186,17 @@ html {
   }
   /*SALUTATION*/
   .salutation h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .salutation p {
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
   }
   /*PORTRAIT*/
   .row {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
   }
   #portrait {
     max-height: 260px;
