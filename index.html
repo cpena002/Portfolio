@@ -41,21 +41,51 @@
   </head>
 
   <body onresize="processBullets()" onload="processBullets()">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 id="name">Carlos E. Peña</h1>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-          <p id="profession">Jr. Full Stack Web Developer</p>
-        </div>
-      </div>
-    </div>
+    <section id="heading">
+      <div class="container-fluid">
+        <header>
+          <div class="social-media">
+            <a href="https://linkedin.com/in/cpena002" target="_blank"><img src="images/LinkedIn2.png"></a>
 
+            <a href="https://github.com/cpena002" target="_blank"><img src="images/GitHub.png"></a>
+
+            <a href="Resume.pdf" target="_blank"><img src="images/resume.png"></a>
+
+            <a href="tel:6197346166"><img src="images/cell.png"></a>
+
+            <a href="mailto:cpena002@yahoo.com"><img src="images/email.png" alt=""></a>
+          </div>
+          <h1 id="name">Carlos E. Peña</h1>
+        </header>
+      </div>
+
+    <!-- NAVBAR -->
+    <div class="nav-placeholder">
+      <nav class="navbar navbar-inverse main-navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <div class=" center">
+              <ul class="nav navbar-nav">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div> <!-- END NAVBAR -->
+
+  </section>
+  <!-- PORTRAIT -->
+  <section id="introduction">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 skills">
@@ -73,34 +103,15 @@
         </div>
       </div>
     </div>
-
-    <!-- PORTRAIT -->
-    <div class="container-fluid">
-      <img id="portrait" class="img-responsive center-block" src="images/Portrait2.jpg">
+    <div class="row">
+      <div class="col-sm-6 salutation">
+        <h1>Hi, I'm Carlos!</h1>
+        <p>I'm a Jr. Full Stack Web Developer </p>
+      </div>
+      <div class="col-sm-6">
+        <img id="portrait" class="img-responsive" src="images/Portrait2.jpg">
+      </div>
     </div>
-
-    <!-- NAVBAR -->
-    <div class="nav-placeholder">
-      <nav class="navbar navbar-inverse navbar-fixed-bottom">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <div class="nav navbar-nav footer">
-              <ul>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div> <!-- END NAVBAR -->
+  </section>
   </body>
 </html>

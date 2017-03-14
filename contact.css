@@ -9,10 +9,16 @@ body {
   html {
     height: 100%;
   }
-  h1 {
+  .heading {
     color: white;
     font-size: 36px;
     text-align: center;
+  }
+  .subheading {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.52);
   }
 
   a {
@@ -25,15 +31,22 @@ body {
     color: white;
   }
 
-
   /* CONTENT */
+
+  .col-sm-6.column1 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 80px;
+
+  }
 
   .col-sm-6 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     padding: 80px;
+
   }
 
   .col-sm-12 {
