@@ -138,7 +138,6 @@ html {
 }
 
 /*MEDIA QUERIES*/
-
 /*iPhone 5*/
 @media (min-width:320px) {
   /*SOCIAL MEDIA*/
@@ -200,5 +199,46 @@ html {
   }
   #portrait {
     max-height: 260px;
+  }
+}
+@media (min-width:320px)
+  and (min-height:800px){
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 24px;
+  }
+  /*MY NAME*/
+  #name {
+    font-size: 32px;
+  }
+  /*NAVBAR*/
+  .center .navbar-nav li a {
+    font-size: 22px;
+  }
+  /*INTRODUCTION BACKGROUND IMAGE*/
+  #introduction {
+    background-size: cover;
+    height: 825px;
+  }
+  /*SKILLS*/
+  .skills ul li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /*SALUTATION*/
+  .salutation h1 {
+    font-size: 42px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+  }
+  .salutation p {
+    font-size: 24px;
+  }
+  /*PORTRAIT*/
+
+  #portrait {
+    max-height: 460px;
   }
 }
