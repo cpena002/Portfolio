@@ -170,7 +170,7 @@ html {
   }
   /*SKILLS*/
   .skills ul li:after {
-    padding: 5px;
+    padding: 2px;
   }
   .skills ul {
     display: flex;
