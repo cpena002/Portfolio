@@ -140,234 +140,66 @@ html {
 /*MEDIA QUERIES*/
 
 /*iPhone 5*/
-@media (min-width:220px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 335px;
-  }
-  #name {
-    font-size: 26px;
-  }
-
-  #profession {
-    font-size: 17px;
-  }
-  .skills ul li {
-    font-size: 13px;
-  }
-  .footer a {
-    font-size: 13px;
-  }
-}
-
 @media (min-width:320px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 315px;
-    margin-top: 5%;
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 12px;
   }
+  /*MY NAME*/
   #name {
-    font-size: 26px;
+    font-size: 12px;
   }
+  /*NAVBAR*/
+  .navbar {
+    min-height: inherit;
+  }
+  .main-navbar {
+    padding: 0;
+  }
+  .navbar-toggle {
+    padding: 3px;
+  }
+  .center .navbar-nav li a {
+    font-size: 8px;
+  }
+  .center li a {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    width: 15px;
+    height: 1px;
+  }
+  /*INTRODUCTION BACKGROUND IMAGE*/
+  #introduction {
+    background-size: contain;
+  }
+  /*SKILLS*/
+  .skills ul {
 
-  #profession {
-    font-size: 16px;
   }
   .skills ul li {
-    font-size: 14px;
+    font-size: 6px
   }
-  .footer a {
-    font-size: 14px;
+  .skills ul li:after {
+    padding: 2px;
+    font-size: 5px;
+    word-break: break-all;
   }
-}
-@media (min-width : 320px)
-and (min-height : 800px){
+  /*SALUTATION*/
+  .salutation h1 {
+    font-size: 12px;
+  }
+  .salutation p {
+    font-size: 12px;
+    text-align: center;
+  }
+  /*PORTRAIT*/
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
   #portrait {
-    border-radius: 90%;
-    max-height: 450px;
-    margin-top: 10%;
-  }
-  #name {
-    font-size: 35px;
-  }
-
-  #profession {
-    font-size: 21px;
-  }
-  .skills ul li {
-    font-size: 16px;
-  }
-  .footer a {
-    font-size: 16px;
-  }
-}
-
-/* Smartphones (portrait) ----------- */
-@media (min-width : 481px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 365px;
-    margin-top: 2%;
-  }
-  #name {
-    font-size: 35px;
-  }
-
-  #profession {
-    font-size: 20px;
-  }
-  .skills ul li {
-    font-size: 15px;
-  }
-  .footer a {
-    font-size: 15px;
-  }
-}
-@media (min-width : 481px)
-and (min-height : 800px){
-  #portrait {
-    border-radius: 90%;
-    max-height: 470px;
-    margin-top: 10%;
-  }
-  #name {
-    font-size: 36px;
-  }
-
-  #profession {
-    font-size: 22px;
-  }
-  .skills ul li {
-    font-size: 17px;
-  }
-  .footer a {
-    font-size: 17px;
-  }
-}
-
-/* iPads (portrait) ----------- */
-@media (min-width:641px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 390px;
-    margin-top: 2%;
-  }
-  #name {
-    font-size: 36px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 20px;
-  }
-  .skills ul li {
-    font-size: 16px;
-  }
-  .footer a {
-    font-size: 16px;
-  }
-}
-@media (min-width : 641px)
-and (min-height: 800px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 480px;
-    margin-top: 10%;
-  }
-  #name {
-    font-size: 37px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 22px;
-  }
-  .skills ul li {
-    font-size: 19px;
-  }
-  .footer a {
-    font-size: 19px;
-  }
-}
-
-@media (min-width:830px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 405px;
-    margin-top: 2%;
-  }
-  #name {
-    font-size: 37px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 21px;
-  }
-  .skills ul li {
-    font-size: 17px;
-  }
-  .footer a {
-    font-size: 17px;
-  }
-}
-@media (min-width : 830px)
-and (min-height : 800px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 485px;
-    margin-top: 7%;
-  }
-  #name {
-    font-size: 39px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 24px;
-  }
-  .skills ul li {
-    font-size: 22px;
-  }
-  .footer a {
-    font-size: 22px;
-  }
-}
-
-@media (min-width:961px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 420px;
-    margin-top: 2%;
-  }
-  #name {
-    font-size: 38px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 21px;
-  }
-  .skills ul li {
-    font-size: 17px;
-  }
-  .footer a {
-    font-size: 17px;
-  }
-}
-@media (min-width : 961px)
-and (min-height : 800px) {
-  #portrait {
-    border-radius: 90%;
-    max-height: 495px;
-    margin-top: 7%;
-  }
-  #name {
-    font-size: 40px;
-  }
-  /*Profession*/
-  #profession {
-    font-size: 24px;
-  }
-  .skills ul li {
-    font-size: 22px;
-  }
-  .footer a {
-    font-size: 22px;
+    max-height: 200px;
   }
 }
