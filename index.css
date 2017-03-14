@@ -143,11 +143,11 @@ html {
 @media (min-width:320px) {
   /*SOCIAL MEDIA*/
   .social-media img {
-    height: 12px;
+    height: 19px;
   }
   /*MY NAME*/
   #name {
-    font-size: 12px;
+    font-size: 24px;
   }
   /*NAVBAR*/
   .navbar {
@@ -156,39 +156,35 @@ html {
   .main-navbar {
     padding: 0;
   }
-  .navbar-toggle {
-    padding: 3px;
-  }
   .center .navbar-nav li a {
-    font-size: 8px;
+    font-size: 16px;
   }
   .center li a {
     padding: 0;
     margin: 0;
   }
-  .navbar-inverse .navbar-toggle .icon-bar {
-    width: 15px;
-    height: 1px;
-  }
   /*INTRODUCTION BACKGROUND IMAGE*/
   #introduction {
-    background-size: contain;
+    background-size: cover;
+    height: 100%;
   }
   /*SKILLS*/
-  .skills ul {
-
-  }
-  .skills ul li {
-    font-size: 6px
-  }
   .skills ul li:after {
     padding: 2px;
-    font-size: 5px;
-    word-break: break-all;
+  }
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skills ul li {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
   }
   /*SALUTATION*/
   .salutation h1 {
-    font-size: 12px;
+    font-size: 15px;
   }
   .salutation p {
     font-size: 12px;
@@ -198,8 +194,9 @@ html {
   .row {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
   }
   #portrait {
-    max-height: 200px;
+    max-height: 320px;
   }
 }
