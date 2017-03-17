@@ -330,7 +330,8 @@ html {
     /*NAVBAR*/
     .center .navbar-nav li a {
       font-size: 28px;
-      padding: 5px;
+      padding: 10
+      px;
     }
     /*INTRODUCTION BACKGROUND IMAGE*/
     #introduction {
@@ -340,6 +341,55 @@ html {
     /*SKILLS*/
     .skills ul li {
       font-size: 19px;
+    }
+    .skills ul li:after {
+      padding: 10px;
+    }
+    /*SALUTATION*/
+    .salutation h1 {
+      font-size: 62px;
+    }
+    .salutation p {
+      font-size: 30px;
+    }
+    /*PORTRAIT*/
+    #portrait {
+      max-height: 460px;
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+    }
+}
+@media (min-width:768px)
+  and (min-height:600){
+    /*SOCIAL MEDIA*/
+    .social-media img {
+      height: 22px;
+    }
+    /*MY NAME*/
+    #name {
+      font-size: 42px;
+    }
+    /*NAVBAR*/
+    .center .navbar-nav li a {
+      font-size: 28px;
+      padding: 10
+      px;
+    }
+    /*INTRODUCTION BACKGROUND IMAGE*/
+    #introduction {
+      background-size: cover;
+      height: 590px;
+    }
+    /*SKILLS*/
+    .skills ul li {
+      font-size: 19px;
+    }
+    .skills ul li:after {
+      font-size: 19px;
+      padding: 15px;
     }
     /*SALUTATION*/
     .salutation h1 {
