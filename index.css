@@ -153,6 +153,8 @@ html {
     min-height: inherit;
   }
   .main-navbar {
+    padding: 0;
+    margin: 0;
   }
   .center .navbar-nav li a {
     font-size: 16px;
