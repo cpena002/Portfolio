@@ -150,6 +150,10 @@ html {
   }
   /*NAVBAR*/
 
+  .main-navbar {
+    padding: 0;
+    margin: 0;
+}
   .navbar {
     min-height: inherit;
   }
@@ -212,6 +216,9 @@ html {
     font-size: 32px;
   }
   /*NAVBAR*/
+  .main-navbar {
+    padding: 10px 10px;
+  }
   .center .navbar-nav li a {
     font-size: 22px;
   }
