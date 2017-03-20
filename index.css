@@ -380,6 +380,11 @@ html {
       font-size: 42px;
     }
     /*NAVBAR*/
+
+    .main-navbar {
+      padding: 10px 10px;
+    }
+
     .center .navbar-nav li a {
       font-size: 25px;
       padding: 10px 15px;
@@ -425,11 +430,17 @@ html {
       height: 27px;
       margin-bottom: 10px;
     }
+
     /*MY NAME*/
     #name {
       font-size: 42px;
     }
+
     /*NAVBAR*/
+    .main-navbar {
+      padding: 10px 10px;
+    }
+
     .center .navbar-nav li a {
       font-size: 22px;
       text-decoration: underline;
@@ -440,6 +451,7 @@ html {
       background-size: cover;
       height: 830px;
     }
+
     /*SKILLS*/
     .skills ul li {
       font-size: 19px;
@@ -448,6 +460,7 @@ html {
     .skills ul li:after {
       padding: 10px;
     }
+
     /*SALUTATION*/
     .salutation h1 {
       font-size: 62px;
@@ -456,6 +469,7 @@ html {
     .salutation p {
       font-size: 24px;
     }
+    
     /*PORTRAIT*/
     #portrait {
       max-height: 460px;
