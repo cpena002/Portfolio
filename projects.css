@@ -17,12 +17,7 @@ html {
   background-color: white;
 }
 
-.social-media a {
-  padding: 5px;
-}
-
 .social-media img {
-  height: 27px;
   display: flex;
   flex-direction: row;
 }
@@ -30,7 +25,6 @@ html {
   text-align: center;
   color: black;
   margin: 0;
-  font-size: 42px
 }
 
 /*NAVBAR------------------------------------*/
@@ -78,10 +72,6 @@ html {
 #title {
   color: white;
   text-align: center;
-  font-size: 44px;
-}
-#projects {
-  background: url(images/section-background7.jpg) center center fixed;
 }
 
 .row {
@@ -160,7 +150,6 @@ html {
   #projects {
     background: url(images/section-background5.jpg) center center fixed;
   }
-
   .row {
     display: block;
   }
@@ -177,13 +166,67 @@ html {
     font-size: 14px;
     text-align: justify;
     margin-bottom: 35px;
+    margin-top: 0;
   }
 }
 
 /*Slim window size on monitor------------------*/
 @media (min-width:320px)
   and (min-height:800px){
+    /*SOCIAL MEDIA*/
+    .social-media a {
+      padding: 5px;
+    }
+    .social-media img {
+      height: 30px;
+    }
 
+    /*NAME*/
+    #name {
+      font-size: 42px;
+    }
+
+    /*NAVBAR*/
+    .main-navbar {
+      padding: 10px 0;
+    }
+    .center .navbar-nav li a {
+      font-size: 22px;
+    }
+    .center li a {
+      padding: 10px 20px;
+    }
+
+    /*PROJECTS*/
+    #title {
+      background-color: rgba(0,0,0,0.52);
+      font-size: 40px;
+    }
+    #projects {
+      background: url(images/section-background5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 840px;
+    }
+
+    .row {
+      display: block;
+    }
+    .img-thumbnail {
+      width: 100%;
+      height: auto;
+      border-color: transparent;
+    }
+    .caption {
+      font-size: 20px;
+      text-decoration: underline;
+    }
+    .description {
+      font-size: 14px;
+      text-align: justify;
+      margin-bottom: 35px;
+      margin-top: 0;
+    }
 }
 
 /*For Phones like Nexus 5 ------------------------*/
