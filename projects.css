@@ -153,6 +153,14 @@ html {
   }
 
   /*PROJECTS*/
+  #title {
+    background-color: rgba(0,0,0,0.52);
+    font-size: 30px;
+  }
+  #projects {
+    background: url(images/section-background5.jpg) center center fixed;
+  }
+
   .row {
     display: block;
   }
@@ -168,6 +176,7 @@ html {
   .description {
     font-size: 14px;
     text-align: justify;
+    margin-bottom: 35px;
   }
 }
 
