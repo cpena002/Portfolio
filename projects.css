@@ -5,7 +5,7 @@ body {
   background-size: cover;
   font-family: 'Cinzel Decorative', cursive;
   }
-html {
+body, html {
   height: 100%;
 }
 
@@ -95,13 +95,13 @@ html {
 .caption {
   color: white;
   font-size: 24px;
-  background-color: rgba(0,0,0,0.52);
+  background-color: rgba(0,0,0,0.80);
 }
 
 .description {
   color: white;
   font-size: 16px;
-  background-color: rgba(0,0,0,0.52);
+  background-color: rgba(0,0,0,0.80);
   margin-top: 5px;
   max-width: 400px;
 }
@@ -229,15 +229,70 @@ html {
     }
 }
 
-/*For Phones like Nexus 5 ------------------------*/
-@media (min-width:412px) {
+/*For Phones like Nexus 7 ------------------------*/
+@media (min-width:600px) {
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 25px;
+  }
 
+  /*NAME*/
+  #name {
+    font-size: 42px;
+  }
+
+  /*PROJECTS*/
+  #title {
+    background-color: rgba(0,0,0,0.52);
+    font-size: 40px;
+  }
+  #projects {
+    background: url(images/section-background5.jpg);
+    height: 100%;
+  }
+
+  .caption {
+    background-color: rgba(0,0,0,0.80);
+
+  }
+  .description {
+    background-color: rgba(0,0,0,0.80);
+  }
 }
 
 /*For when resizing browswer screen-------------------------*/
-@media (min-width:412px)
+@media (min-width:600px)
   and (min-height: 800px){
+    /*SOCIAL MEDIA*/
+    .social-media img {
+      height: 25px;
+    }
 
+    /*NAME*/
+    #name {
+      font-size: 42px;
+    }
+
+    /*PROJECTS*/
+    #title {
+      background-color: rgba(0,0,0,0.52);
+      font-size: 40px;
+    }
+    #projects {
+      background: url(images/section-background5.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .caption {
+      background-color: rgba(0,0,0,0.80);
+
+    }
+    .description {
+      background-color: rgba(0,0,0,0.80);
+    }
 }
 
 @media (min-width:768px) {
