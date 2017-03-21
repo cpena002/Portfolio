@@ -21,59 +21,87 @@
     <title>About Me</title>
     <link rel="stylesheet" rel="stylesheet" href="aboutme.css">
   </head>
-  <body>
-    <div class="container-fluid">
-      <h1>Get to Know Me</h1>
-    </div>
-    <div class="container-fluid">
-      <div class="table-specs">
-        <table class="rows" >
-          <tr>
-            <td>
-              <img src="images/coding.png" class="icon">
-              <p>Completed a four-month, intensive coding bootcamp at Learn ACADEMY, a hands on, intensive coding bootcmap, where I spent over 1,000 hours coding. </p>
-            </td>
-            <td>
-              <img src="images/education3.png" class="icon" id="education">
-              <p id="education"> Attended the University of California, Riverside where I double-majored in Political Science and Spanish Literature. I obtained my Bacherlors in 2011</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/law.png" class="icon">
-              <p>Obtained a Paralegal Certificate from the University of San Diego and worked in the legal industry for four years. The Law Offices of Lincoln, Gustafson & Cercos was my home for 3 years. I helped attorneys in personal injury and construction defense cases. After 3 years I moved on to the Law Offices of Lorber, Greenfield & Polito, where I helped attorneys in construction defense litigation.
-              </p>
-            </td>
-            <td>
-              <img src="images/language3.png" class="icon">
-              <p>Spanish is my first language and I can speak it fluently.</p>
-              <p></p>
-            </td>
-        </table>
-      </div>
-    </div>
 
-    <!-- NAVBAR -->
-    <div class="nav-placeholder">
-      <nav class="navbar navbar-inverse navbar-fixed-bottom">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+  <body>
+    <section>
+      <div class="container-fluid">
+        <header>
+          <!-- SOCIAL MEDIA & NAME ---------------------->
+          <div class="social-media">
+            <a href="https://linkedin.com/in/cpena002" target="_blank"><img src="images/LinkedIn2.png"></a>
+
+            <a href="https://github.com/cpena002" target="_blank"><img src="images/GitHub.png"></a>
+
+            <a href="Resume.pdf" target="_blank"><img src="images/resume.png"></a>
+
+            <a href="tel:6197346166"><img src="images/cell.png"></a>
+
+            <a href="mailto:cpena002@yahoo.com"><img src="images/email.png" alt=""></a>
           </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="projects.html">Portfolio</a></li>
-              <li><a href="aboutme.html">About Me</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <h1 id="name">Carlos E. Peña</h1>
+        </header>
+      </div>
+      <!--- NAVBAR ------------------------------->
+      <div class="nav-placeholder">
+        <nav class="navbar navbar-inverse main-navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <div class=" center">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="aboutme.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- END NAVBAR -------------------------------->
+    </section>
+
+    <section id="about">
+      <div class="row">
+        <div class="col-sm-12">
+          <p id="invite">Get to Know Me</p>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="row second">
+          <div class="col-sm-4 image">
+            <img src="images/ca3.jpg" class="america center-block">
+          </div>
+          <div class="col-sm-8">
+            <div class="description">
+              <p id="soccer">Soccer is my life</p >
+              <p class="">Club America; The greatest Mexican football club. My weekends are planned around their schedule, which annoys my girlfriend. I have followed this team since I was in 3rd grade, and let me tell you....we've been through a lot. Just last year we lost the final against Tigres (Tigers). It still hurts. We've made it to the playoffs nine consecutive tournaments and we're on track to make it ten.</p>
+              <p class=""> As a kid, I played soccer every single day. I joined several teams, but never won a championship. As I grew older, other responsibilities took precedent and with time, I got out of shape. I'm currently trying to get back in shape to join a local team.</p>
+            </div>
           </div>
         </div>
-      </nav>
-    </div> <!-- END NAVBAR -->
+      </div>
+
+      <!-- <div class="info">
+        <div class="row second">
+          <div class="col-sm-8">
+            <span id="soccer">Soccer is my life</span >
+            <p class="description">Club America; The greatest Mexican football club. My weekends are planned around their schedule, which annoys my girlfriend. I have followed this team since I was in 3rd grade, and let me tell you....we've been through a lot. Just last year we lost the final against Tigres (Tigers). It still hurts. We've made it to the playoffs nine consecutive tournaments and we're on track to make it ten.</p>
+            <p class="description"> As a kid, I played soccer every single day. I joined several teams, but never won a championship. As I grew older, other responsibilities took precedent and with time, I got out of shape. I'm currently trying to get back in shape to join a local team.</p>
+          </div>
+          <div class="col-sm-4 image">
+            <span><img src="images/ca3.jpg" class="america center-block"></span>
+          </div>
+        </div>
+      </div> -->
+
+    </section>
   </body>
 </html>
