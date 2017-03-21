@@ -275,7 +275,7 @@ body, html {
 
     /*PROJECTS*/
     #title {
-      background-color: rgba(0,0,0,0.52);
+      background-color: rgba(0,0,0,0.80);
       font-size: 40px;
     }
     #projects {
@@ -288,10 +288,12 @@ body, html {
 
     .caption {
       background-color: rgba(0,0,0,0.80);
+      font-size: 22px;
 
     }
     .description {
       background-color: rgba(0,0,0,0.80);
+      font-size: 20px;
     }
 }
 

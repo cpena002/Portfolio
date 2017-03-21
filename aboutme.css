@@ -79,11 +79,8 @@ body, html {
 }
 
 /*ABOUT SECTION----------------------------------------------*/
-#about {
-  background: url(images/section-background5.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+#about-me {
+  background: url(images/section-background5.jpg) no-repeat center center fixed;
   background-size: cover;
   color: white;
 }
@@ -94,68 +91,57 @@ body, html {
   background-color: rgba(0,0,0,0.80);
 }
 
-/*SECOND ABOUT ME ENTRY----------------------*/
-.second {
+/*ABOUT ME TEXT ENTRIES----------------------*/
+.soccer {
   margin-top: 20px;
 }
 
 .description {
   font-size: 22px;
   background-color: rgba(0,0,0,0.80);
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-#soccer {
+.title {
+  font-size: 28px;
+  text-decoration: underline;
+  margin: 10px;
+}
+#tea {
   font-size: 28px;
   text-decoration: underline;
   margin: 10px;
 }
 
-.america {
-  width: 280px;
+/*ABOUT ME IMAGES-------------------------------------*/
+.law-img {
+  width: 340px;
   height: auto;
+  padding-bottom: 30px;
 }
-
-/*TABLE*/
-/*.table-specs {
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
+.code-img {
+  width: 340px;
+  height: auto;
+  padding-bottom: 30px;
 }
-
-tr {
-  vertical-align: top;
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
-  border-color: transparent;
+.america-img {
+  width: 300px;
+  height: auto;
+  padding-bottom: 30px;
 }
-
-img {
-  float: left;
+.tea-img {
+  width: 330px;
+  height: auto;
+  padding-bottom: 30px;
 }
-
-p {
-  font-size: 15px;
-  margin-left: 10px;
-  padding-left: 100px;
+.calligraphy-img {
+  width: 350px;
+  height: auto;
+  padding-bottom: 30px;
 }
-
-td {
-  width: 600px;
-  height: 50px;
-  padding: 25px;
+.whisky-img {
+  width: 300px;
+  height: auto;
+  padding-bottom: 30px;
 }
-
-.icon {
-  height: 81px;
-  width: auto;
-}
-
-#education {
-  padding-top: -5px;
-}
-
-.bootcamp {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}*/
