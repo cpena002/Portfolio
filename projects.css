@@ -263,38 +263,38 @@ body, html {
 /*For when resizing browswer screen-------------------------*/
 @media (min-width:600px)
   and (min-height: 800px){
-    /*SOCIAL MEDIA*/
-    .social-media img {
-      height: 25px;
-    }
+  /*SOCIAL MEDIA*/
+  .social-media img {
+    height: 25px;
+  }
 
-    /*NAME*/
-    #name {
-      font-size: 42px;
-    }
+  /*NAME*/
+  #name {
+    font-size: 42px;
+  }
 
-    /*PROJECTS*/
-    #title {
-      background-color: rgba(0,0,0,0.80);
-      font-size: 40px;
-    }
-    #projects {
-      background: url(images/section-background5.jpg);
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+  /*PROJECTS*/
+  #title {
+    background-color: rgba(0,0,0,0.80);
+    font-size: 40px;
+  }
+  #projects {
+    background: url(images/section-background5.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    .caption {
-      background-color: rgba(0,0,0,0.80);
-      font-size: 22px;
+  .caption {
+    background-color: rgba(0,0,0,0.80);
+    font-size: 22px;
 
-    }
-    .description {
-      background-color: rgba(0,0,0,0.80);
-      font-size: 20px;
-    }
+  }
+  .description {
+    background-color: rgba(0,0,0,0.80);
+    font-size: 20px;
+  }
 }
 
 @media (min-width:768px) {

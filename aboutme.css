@@ -98,7 +98,7 @@ body, html {
 
 .description {
   font-size: 22px;
-  background-color: rgba(0,0,0,0.80);
+  background-color: rgba(0,0,0,0.90);
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
@@ -144,4 +144,124 @@ body, html {
   width: 300px;
   height: auto;
   padding-bottom: 30px;
+}
+
+/*MEDIA QUERIES----------------------------------*-------/
+
+/*iPhone 5/Galaxy--------*/
+@media (min-width:320px) {
+  /* SOCIAL MEDIA & NAME--*/
+  .social-media img {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*NAVBAR -----------------------------------------------*/
+  .main-navbar {
+    padding: 0 0;
+    margin: 0;
+  }
+
+  .center .navbar-nav li a {
+    color: black;
+    font-size: 22px;
+    text-decoration: underline;
+  }
+
+  /*ABOUT SECTION---------------------------------------*/
+
+  #invite {
+    font-size: 28px;
+  }
+
+  /*ABOUT ME TEXT ENTRIES----------------------*/
+  .soccer {
+    margin-top: 20px;
+  }
+
+  .description {
+    font-size: 22px;
+    background-color: rgba(0,0,0,0.90);
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .title {
+    font-size: 28px;
+    text-decoration: underline;
+    margin: 10px;
+  }
+  #tea {
+    font-size: 28px;
+    text-decoration: underline;
+    margin: 10px;
+  }
+
+  /*ABOUT ME IMAGES-------------------------------------*/
+  .lawcode {
+    display: flex;
+    flex-direction: row;
+  }
+  .law-img {
+    width: 140px;
+    height: 200px;
+    padding-bottom: 30px;
+  }
+  .code-img {
+    width: 140px;
+    height: 200px;;
+    padding-bottom: 30px;
+  }
+  .america-img {
+    width: 300px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .tea-img {
+    width: 330px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .calligraphy-img {
+    width: 350px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .whisky-img {
+    width: 300px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+/*Slim window size on monitor------------------*/
+@media (min-width:320px)
+  and (min-height:800px){
+
+}
+
+/*For Phones like Nexus 7 ------------------------*/
+@media (min-width:600px) {
+
+}
+
+/*For when resizing browswer screen-------------------------*/
+@media (min-width:600px)
+  and (min-height: 800px){
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px)
+  and (min-height:600px){
+
+}
+
+@media (min-width:768px)
+  and (min-height: 800px){
+
 }
