@@ -22,7 +22,6 @@ body, html {
 }
 
 .social-media img {
-  height: 25px;
   display: flex;
   flex-direction: row;
 }
@@ -86,18 +85,12 @@ body, html {
 }
 #invite {
   color: white;
-  font-size: 40px;
   text-align: center;
   background-color: rgba(0,0,0,0.80);
 }
 
 /*ABOUT ME TEXT ENTRIES----------------------*/
-.soccer {
-  margin-top: 20px;
-}
-
 .description {
-  font-size: 22px;
   background-color: rgba(0,0,0,0.90);
   text-align: justify;
   padding-left: 10px;
@@ -108,43 +101,6 @@ body, html {
   text-decoration: underline;
   margin: 10px;
 }
-#tea {
-  font-size: 28px;
-  text-decoration: underline;
-  margin: 10px;
-}
-
-/*ABOUT ME IMAGES-------------------------------------*/
-.law-img {
-  width: 340px;
-  height: auto;
-  padding-bottom: 30px;
-}
-.code-img {
-  width: 340px;
-  height: auto;
-  padding-bottom: 30px;
-}
-.america-img {
-  width: 300px;
-  height: auto;
-  padding-bottom: 30px;
-}
-.tea-img {
-  width: 330px;
-  height: auto;
-  padding-bottom: 30px;
-}
-.calligraphy-img {
-  width: 350px;
-  height: auto;
-  padding-bottom: 30px;
-}
-.whisky-img {
-  width: 300px;
-  height: auto;
-  padding-bottom: 30px;
-}
 
 /*MEDIA QUERIES----------------------------------*-------/
 
@@ -153,91 +109,82 @@ body, html {
   /* SOCIAL MEDIA & NAME--*/
   .social-media img {
     height: 20px;
-    display: flex;
-    flex-direction: row;
   }
-
-  /*NAVBAR -----------------------------------------------*/
+  /*NAVBAR -------------*/
   .main-navbar {
-    padding: 0 0;
-    margin: 0;
+    padding: 0;
   }
-
-  .center .navbar-nav li a {
-    color: black;
-    font-size: 22px;
-    text-decoration: underline;
-  }
-
-  /*ABOUT SECTION---------------------------------------*/
-
+  /*ABOUT SECTION----------*/
   #invite {
     font-size: 28px;
   }
-
-  /*ABOUT ME TEXT ENTRIES----------------------*/
-  .soccer {
-    margin-top: 20px;
-  }
-
+  /*ABOUT ME TEXT ENTRIES---*/
   .description {
-    font-size: 22px;
-    background-color: rgba(0,0,0,0.90);
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 17px;
   }
   .title {
-    font-size: 28px;
-    text-decoration: underline;
-    margin: 10px;
+    font-size: 22px;
+    margin: 5px;
+    text-align: center;
   }
-  #tea {
-    font-size: 28px;
-    text-decoration: underline;
-    margin: 10px;
-  }
-
   /*ABOUT ME IMAGES-------------------------------------*/
+
+  /*law and code*/
   .lawcode {
     display: flex;
     flex-direction: row;
   }
   .law-img {
-    width: 140px;
+    width: 160px;
     height: 200px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
   .code-img {
-    width: 140px;
-    height: 200px;;
-    padding-bottom: 30px;
+    width: 160px;
+    height: 200px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  /*soccer love*/
+  .soccer {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .america-img {
     width: 300px;
-    height: auto;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 0;
   }
+  /*tea love*/
   .tea-img {
     width: 330px;
-    height: auto;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  /*calligraphy love*/
+  .calligraphy {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .calligraphy-img {
-    width: 350px;
-    height: auto;
-    padding-bottom: 30px;
+    width: 330px;
+    padding-top: 30px;
+    padding-bottom: 0;
   }
+  /*whisky love*/
   .whisky-img {
-    width: 300px;
+    width: 330px;
     height: auto;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 0;
   }
 }
 
 /*Slim window size on monitor------------------*/
 @media (min-width:320px)
   and (min-height:800px){
+
 
 }
 
@@ -263,5 +210,85 @@ body, html {
 
 @media (min-width:768px)
   and (min-height: 800px){
+    /* SOCIAL MEDIA & NAME-----------------------------------*/
+    .social-media img {
+      height: 25px;
+    }
+    #name {
+      text-align: center;
+      color: black;
+      margin: 0;
+      font-size: 42px;
+    }
 
+    /*NAVBAR -----------------------------------------------*/
+    .main-navbar {
+      padding: 10px 0;
+    }
+    /*ABOUT SECTION--------------------------------------*/
+    #invite {
+      font-size: 40px;
+    }
+    /*ABOUT ME TEXT ENTRIES----------------------*/
+    .description {
+      font-size: 22px;
+    }
+    .title {
+      font-size: 28px;
+      text-decoration: underline;
+      margin: 10px;
+      text-align: left;
+    }
+    /*ABOUT ME IMAGES-------------------------------------*/
+
+    /*law and code*/
+    .lawcode {
+      display: flex;
+      flex-direction: column;
+    }
+    .law-img {
+      width: 340px;
+      height: auto;
+      padding-bottom: 30px;
+    }
+    .code-img {
+      width: 340px;
+      height: auto;
+      padding-bottom: 30px;
+    }
+    /*soccer love*/
+    .soccer {
+      display: flex;
+      flex-direction: row;
+    }
+    .america-img {
+      width: 300px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+    /*tea love*/
+    .tea-img {
+      width: 330px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+    /*calligraphy love*/
+    .calligraphy {
+      display: flex;
+      flex-direction: row;
+    }
+    .calligraphy-img {
+      width: 350px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+    .whisky-img {
+      width: 300px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
 }
