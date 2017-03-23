@@ -220,7 +220,6 @@ body, html {
       margin: 0;
       font-size: 42px;
     }
-
     /*NAVBAR -----------------------------------------------*/
     .main-navbar {
       padding: 10px 0;
@@ -240,7 +239,6 @@ body, html {
       text-align: left;
     }
     /*ABOUT ME IMAGES-------------------------------------*/
-
     /*law and code*/
     .lawcode {
       display: flex;
@@ -290,5 +288,137 @@ body, html {
       height: auto;
       padding-bottom: 30px;
       padding-top: 0;
+    }
+}
+@media (min-width:768px)
+  and (min-height: 1024px){
+    .col-sm-8, .col-sm-4 {
+      width: 100%;
+    }
+    .calligraphy {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .soccer {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .lawcode {
+      display: flex;
+      flex-direction: row;
+    }
+    .techlegal {
+      display: flex;
+      flex-direction: column;
+    }
+    .law-img, .code-img {
+      width: 330px;
+      height: 350px;
+    }
+    .tea {
+      display: flex;
+      flex-direction: column;
+    }
+    .whisky {
+      display: flex;
+      flex-direction: column;
+    }
+    .america-img {
+      width: 380px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    /*tea love*/
+    .tea-img {
+      width: 500px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    .calligraphy-img {
+      width: 500px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    .whisky-img {
+      width: 500px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    .title {
+      text-align: center;
+    }
+}
+
+@media (min-width:800px)
+  and (min-height: 1200px){
+    /* SOCIAL MEDIA & NAME-----------------------------------*/
+    .social-media img {
+      height: 35px;
+    }
+    #name {
+      font-size: 58px;
+    }
+    /*NAVBAR -----------------------------------------------*/
+    .center .navbar-nav li a {
+      font-size: 32px;
+    }
+    /*ABOUT SECTION--------------------------------------*/
+    #invite {
+      font-size: 48px;
+    }
+    /*ABOUT ME TEXT ENTRIES----------------------*/
+    .title {
+      font-size: 38px;
+      text-align: center;
+    }
+    .description {
+      font-size: 28px;
+    }
+    /*ABOUT ME IMAGES-----------------------------*/
+    .col-sm-8, .col-sm-4 {
+      width: 100%;
+    }
+    /*law and code*/
+    .techlegal {
+      display: flex;
+      flex-direction: column;
+    }
+    .lawcode {
+      display: flex;
+      flex-direction: row;
+    }
+    .law-img, .code-img {
+      width: 370px;
+    }
+    /*soccer love*/
+    .soccer {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .america-img {
+      width: 400px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    /*tea love*/
+    .tea-img {
+      width: 530px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    /*calligraphy love*/
+    .calligraphy {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .calligraphy-img {
+      width: 530px;
+      padding-bottom: 0;
+      padding-top: 40px;
+    }
+    .whisky-img {
+      width: 500px;
+      padding-bottom: 0;
+      padding-top: 40px;
     }
 }
