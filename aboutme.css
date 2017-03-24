@@ -181,31 +181,88 @@ body, html {
   }
 }
 
-/*Slim window size on monitor------------------*/
-@media (min-width:320px)
-  and (min-height:800px){
-
-
-}
-
-/*For Phones like Nexus 7 ------------------------*/
-@media (min-width:600px) {
-
-}
-
-/*For when resizing browswer screen-------------------------*/
-@media (min-width:600px)
-  and (min-height: 800px){
-
-}
-
 @media (min-width:768px) {
-
-}
-
-@media (min-width:768px)
-  and (min-height:600px){
-
+    /* SOCIAL MEDIA & NAME-----------------------------------*/
+    .social-media img {
+      height: 22px;
+    }
+    #name {
+      text-align: center;
+      color: black;
+      margin: 0;
+      font-size: 42px;
+    }
+    /*NAVBAR -----------------------------------------------*/
+    .main-navbar {
+      padding: 10px 0;
+    }
+    /*ABOUT SECTION--------------------------------------*/
+    #invite {
+      font-size: 40px;
+    }
+    /*ABOUT ME TEXT ENTRIES----------------------*/
+    .description {
+      font-size: 18px;
+    }
+    .title {
+      font-size: 24px;
+      text-decoration: underline;
+      margin: 10px;
+      text-align: left;
+    }
+    /*ABOUT ME IMAGES-------------------------------------*/
+    /*law and code*/
+    .lawcode {
+      display: flex;
+      flex-direction: column;
+    }
+    .law-img {
+      width: 280px;
+      height: auto;
+    }
+    .code-img {
+      width: 280px;
+      height: auto;
+      padding-bottom: 30px;
+    }
+    /*soccer love*/
+    .soccer {
+      display: flex;
+      flex-direction: row;
+    }
+    .america-img {
+      width: 260px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+    /*tea love*/
+    .tea-col{
+      height: 250px;
+    }
+    .tea-img {
+      width: 280px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+    /*calligraphy love*/
+    .calligraphy {
+      display: flex;
+      flex-direction: row;
+    }
+    .calligraphy-img {
+      width: 280px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+    .whisky-img {
+      width: 280px;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
 }
 
 @media (min-width:768px)
@@ -421,4 +478,31 @@ body, html {
       padding-bottom: 0;
       padding-top: 40px;
     }
+}
+
+/*Slim window size on monitor------------------*/
+@media (min-width:320px)
+  and (min-height:800px){
+
+
+}
+
+/*For Phones like Nexus 7 ------------------------*/
+@media (min-width:600px) {
+
+}
+
+/*For when resizing browswer screen-------------------------*/
+@media (min-width:600px)
+  and (min-height: 800px){
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px)
+  and (min-height:600px){
+
 }

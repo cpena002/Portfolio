@@ -229,13 +229,25 @@ body, html {
 @media (min-width:600px) {
   /*SOCIAL MEDIA*/
   .social-media img {
-    height: 25px;
+    height: 22px;
+  }
+  .social-media a {
+    padding: 5px;
   }
   /*NAME*/
   #name {
     font-size: 42px;
   }
-
+  /* NAVBAR */
+  .main-navbar {
+    padding: 10px 0;
+  }
+  .center .navbar-nav li a {
+    font-size: 22px;
+  }
+  .center li a {
+    padding: 10px 20px;
+  }
   /*PROJECTS*/
   #title {
     background-color: rgba(0,0,0,0.52);
