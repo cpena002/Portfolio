@@ -253,11 +253,13 @@ body, html {
     background-color: rgba(0,0,0,0.52);
     font-size: 40px;
   }
+
   #projects {
     background: url(images/section-background5.jpg);
-    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
   .caption {
     background-color: rgba(0,0,0,0.80);
 
